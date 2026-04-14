@@ -1,12 +1,6 @@
 #ignore node modules
 node_modules/
 
-#ignore build output
-dist/ 
-
-#ignore logs
-logs/     
-
 #ignore environment variables
 .env  
 
@@ -15,10 +9,3 @@ logs/
 #ignore IDE specific files    
 .idea/
 .vscode/      
-
-#ignore OS generated files
-.DS_Store
-Thumbs.db
-
-#ignore npm debug logs
-npm-debug.log*
