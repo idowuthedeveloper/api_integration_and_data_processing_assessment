@@ -27,8 +27,6 @@ Simple Express API that uses the Genderize external service to predict gender fr
 node app.js
 ```
 
-The server listens on port `3000`.
-
 ## Endpoint
 
 `GET /api/classify`
@@ -40,7 +38,7 @@ Query parameter:
 ### Example
 
 ```bash
-curl "http://localhost:3000/api/classify?name=emily"
+curl "https://apiintegrationanddataprocessingassessment-production.up.railway.app/api/classify?name=emily"
 ```
 
 ### Success response
@@ -75,5 +73,3 @@ curl "http://localhost:3000/api/classify?name=emily"
 
 - The API depends on `https://api.genderize.io`
 - Confidence is set when probability >= 0.7 and sample size >= 100# Gender Classification API
-
-Simple Express API that uses the Genderize external service to predict gender from a given name.
